@@ -1,0 +1,13 @@
+extends layout
+block content
+  h1= title
+  form(method='GET' action='/data/')
+    h5 add Post
+    p
+      label(for="postID") User Number
+      input(type='text', id='postID' , name='postID')
+
+      label(for="id") Post Number
+      input(type='text', id='id', name='id')
+
+      label(for='')
